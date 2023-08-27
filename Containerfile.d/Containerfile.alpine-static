@@ -19,7 +19,7 @@ RUN wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.t
 
 # Building Image
 FROM python:alpine
-ENV FFMPEG_VERSION=5.1.1
+ENV FFMPEG_VERSION=6.0
 COPY --from=prep ffmpeg-${FFMPEG_VERSION}-amd64-static/ffmpeg /usr/local/bin
 
 COPY --from=prep yt-dlp /usr/local/bin
