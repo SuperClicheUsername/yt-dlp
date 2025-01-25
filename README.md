@@ -1,6 +1,6 @@
 Forked to allow faster version adjustment
 
-## Current Version: **2023.07.06**
+## Current Version: **2025.01.15**
 
 Edit the ffmpeg/yt-dlp versions in the: Containerfile.alpine-static file when necessary. 
 
